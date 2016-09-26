@@ -33,7 +33,6 @@ ul{
 header nav{
   text-align: center;
   font-family:"Muli", "Montserrat";
-
  }
 
 /*header p{
@@ -75,7 +74,7 @@ p{
   margin-right: 2rem;
 }
 
-#intro {
+#intro{
   font-family:"Open Sans", "Lobster","Montserrat";
   font-size: 13rem;
   display: inline-block;
@@ -120,7 +119,7 @@ p{
   color: grey;
   text-align: center;
   font-size: 1.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 #portrait{
@@ -186,7 +185,8 @@ section.selfbio{
   padding-right: 3rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
-
+  /*border-bottom: solid 0.1rem;
+  border-color: lightgrey;*/
 }
 
 #posts h2{
@@ -211,6 +211,9 @@ section.selfbio{
 }
 
 /*------portfolio-----*/
+.projects{
+
+}
 .projects a{
   font-family: "Raleway";
   text-decoration: none;
@@ -220,7 +223,7 @@ section.selfbio{
 }
 
 .projects article{
-  border: solid 0.1rem;
+  border-bottom: solid 0.1rem;
   border-color: lightgrey;
 }
 
