@@ -1,0 +1,255 @@
+/*header*/
+header{
+  /*background-color: #ff6666;*/
+  /*text-align: center;*/
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: white;
+  z-index: 1000;
+  width: 100%;
+  position: fixed;
+  background-color: #FFF;
+  opacity: 0.9;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  line-height: 100%;
+}
+
+/*navigator*/
+a:hover{
+   /*font-size: 1.2rem;*/
+   /*color:  #4d4d4d*/
+   color: #df5d4b;
+ }
+
+ul{
+  list-style-type: none;
+ }
+
+header nav{
+  text-align: center;
+  font-family:"Muli", "Montserrat";
+
+ }
+
+/*header p{
+  text-align: left;
+  color: #df5d4b;
+  font-family: "Muli";
+  font-size: 1.5rem;
+  width: 20%;
+}*/
+
+nav li{
+  display: inline;
+}
+
+nav a{
+   color: lightgrey;
+   /*color: black;*/
+   text-align: center;
+   text-decoration: none;
+   list-style-type: none;
+   margin-right: 4rem;
+   /*text-transform: uppercase;*/
+}
+
+.nav_div{
+  padding-top: 5rem;
+}
+
+/*body*/
+
+body{
+  background-color: white;
+  margin: 0px;
+}
+
+p{
+  font-family: "Raleway";
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#intro {
+  font-family:"Open Sans", "Lobster","Montserrat";
+  font-size: 13rem;
+  display: inline-block;
+  position: relative;
+  letter-spacing: -1.3rem;
+  margin-left: 20%;
+  margin-bottom: -3rem;
+  font-weight: 900;
+  /*text-transform: uppercase;*/
+
+}
+
+#intro span:nth-child(1) {
+  color: #e8c060;
+  /*margin-left: 0;
+  margin-right: 0;*/
+
+}
+#intro span:nth-child(2) {
+  color: #ea9078;
+  /*margin-left: -0.8rem;
+  margin-right: -0.8rem;*/
+}
+#intro span:nth-child(3), #intro span:nth-child(4) {
+  color: #65c3ad;
+  /*margin-left: -0.8rem;
+  margin-right: -0.8rem;*/
+}
+#intro span:nth-child(5) {
+  color: #dc6b6b;
+  /*margin-left: -0.8rem;
+  margin-right: -0.8rem;*/
+}
+#intro span:nth-child(6) {
+  color: #ea9078;
+  /*margin-left: 0;
+  margin-right: 0;*/
+}
+
+#slogan{
+  font-family: "Open Sans";
+  color: grey;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+#portrait{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #fd7475;
+  opacity: 0.8;
+}
+
+/*#portrait img{
+  border-radius: 20rem;
+  width: 10rem;
+  height: 10rem;
+  position: relative;
+  left: 45%;
+}*/
+#portrait p{
+  font-family: "Homemade Apple";
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  /*text-transform: uppercase;*/
+}
+/*-----About-----*/
+#avantar{
+  border-radius: 20rem;
+  width: 10rem;
+  height: 10rem;
+  position: relative;
+  left: 15%;
+  float: left;
+  margin-right: 20%;
+  margin-bottom: 10%;
+  /*padding-top: 2rem;
+  padding-bottom: 2rem;*/
+  /*filter: grayscale(100%);*/
+}
+
+#BioTitle{
+  color: #df5d4b;
+  font-family: "Open Sans";
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 5%;
+}
+
+section.selfbio{
+  padding-bottom: 6rem;
+}
+
+.bio{
+  /*display: inline-block;*/
+  font-family: "Open Sans";
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/*---code_journal-----*/
+#posts article{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+}
+
+#posts h2{
+  font-family: "Antic Slab";
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  /*font-size: 2rem;*/
+}
+
+#posts time{
+  font-family: "Raleway";
+  position: relative;
+  left: 45%;
+  color: grey;
+}
+
+#posts a{
+  font-family: "Raleway";
+  position: relative;
+  left: 85%;
+}
+
+/*------portfolio-----*/
+.projects a{
+  font-family: "Raleway";
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-weight: bold;
+}
+
+.projects article{
+  border: solid 0.1rem;
+  border-color: lightgrey;
+}
+
+.projects img{
+  width: 20rem;
+  height: 15rem;
+}
+
+/*footer*/
+footer{
+  background: #f2f2f2;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+footer div a{
+  text-decoration: none;
+}
+
+footer img:hover{
+  opacity: 0.5
+}
+footer p{
+  font-family:"Muli","Montserrat";
+  /*text-align: center;*/
+  color: black;
+  /*position:relative;*/
+  display: inline;
+  font-size: 0.8rem;
+}
