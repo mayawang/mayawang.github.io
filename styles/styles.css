@@ -62,7 +62,6 @@ nav a{
 }
 
 /*body*/
-
 body{
   background-color: white;
   margin: 0px;
@@ -212,18 +211,22 @@ section.selfbio{
 
 /*------portfolio-----*/
 .projects{
-
+  width: 30%;
+  display: inline-block;
 }
-.projects a{
+.projects h3{
   font-family: "Raleway";
   text-decoration: none;
   list-style-type: none;
   color: black;
   font-weight: bold;
+  text-align: center;
 }
 
-.projects article{
+
+article.projects{
   border-bottom: solid 0.1rem;
+  border-left: solid 0.1rem;
   border-color: lightgrey;
 }
 
